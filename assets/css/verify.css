@@ -1,0 +1,71 @@
+.box-style {
+    padding:30px;
+    border:1px solid #e6e7eb;
+    -webkit-box-shadow:0 3px 4px rgba(35,35,35,.07);
+    box-shadow:0 3px 4px rgba(35,35,35,.07);
+    border-radius:5px;
+    background:#fff
+}
+ul.parameters li {
+    padding:15px 0;
+    border-bottom:1px solid #e6e7eb;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    z-index: -3;
+}
+ul.parameters li:first-child {
+    padding-top:0
+}
+ul.parameters li:last-child {
+    border-bottom:0;
+    padding-bottom:0;
+    
+}
+ul.parameters li .left {
+    margin-right:10px
+}
+ul.parameters li .icon {
+    margin-right:8px
+}
+ul.parameters li .btn-sm {
+    padding:5px 10px;
+    border-radius:30px;
+    font-size:10px;
+    font-weight:400
+}
+ul.parameters li span {
+    display: initial !important;
+}
+.mb-20 {
+    margin-bottom:20px
+}
+
+.bg-ver{
+    position: relative;
+    z-index: 50;
+  }
+.bg-ver:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-image: url('../images/checkmark-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+}
+  

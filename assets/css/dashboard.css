@@ -1,0 +1,87 @@
+
+.ud-dashboard-form-wrapper {
+    padding: 30px;
+    border: 1px solid #e6e7eb;
+    box-shadow: 0 3px 4px rgba(35, 35, 35, .07);
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+.ud-dashboard-form-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.ud-form-group {
+    margin-bottom: 20px;
+}
+
+
+.ud-form-group input[type="text"],
+.ud-form-group input[type="email"],
+.ud-form-group input[type="file"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #e6e7eb;
+    border-radius: 5px;
+    background: #f8f8f8;
+    font-size: 14px;
+}
+
+
+.ud-main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ud-main-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Adjusting Box Styles for Dashboard */
+.ud-dashboard-form-wrapper.box-style {
+    padding: 30px;
+    border: 1px solid #e6e7eb;
+    box-shadow: 0 3px 4px rgba(35, 35, 35, .07);
+    border-radius: 5px;
+    background: #fff;
+}
+
+/* Margin adjustments */
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* Background Verification */
+.bg-ver {
+    position: relative;
+    z-index: 50;
+}
+
+.bg-ver:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-image: url('../images/checkmark-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+}
